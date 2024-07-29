@@ -38,38 +38,32 @@ export function Footer() {
             className="cursor-pointer"
             data-umami-event="License Link"
           >
-            <AiOutlineCopyrightCircle />
+            <AiOutlineCopyrightCircle /> MIT License
           </Info>
           <Info
             href="#"
             data-umami-event="Author Link"
           >
-            <span className="font-bold"></span>
+            <span className="font-bold">07</span>
           </Info>
         </section>
         <section className="flex flex-col gap-2 sm:gap-0">
           <Info
-            href="#"
+            href="https://github.com/mateusfg7/Noisekun"
             data-umami-event="Repository Link"
           >
-            <FiGithub /> 
+            <FiGithub /> Original by mateusfg7
           </Info>
 
           <Info
             href="#"
             data-umami-event="Credits Link"
           >
-            <FiAward />
+            <FiAward /> 中文版
           </Info>
         </section>
       </div>
-      <a
-        href="#"
-        className={version({ theme })}
-        data-umami-event="Version Link"
-      >
-        {packageJson.version}
-      </a>
+      
     </footer>
   )
 }
