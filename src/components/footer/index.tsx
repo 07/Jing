@@ -38,13 +38,13 @@ export function Footer() {
             className="cursor-pointer"
             data-umami-event="License Link"
           >
-            <AiOutlineCopyrightCircle /> MIT License
+            <AiOutlineCopyrightCircle />
           </Info>
           <Info
             href="#"
             data-umami-event="Author Link"
           >
-            by <span className="font-bold">mateusfg7</span>
+            <span className="font-bold"></span>
           </Info>
         </section>
         <section className="flex flex-col gap-2 sm:gap-0">
@@ -52,14 +52,14 @@ export function Footer() {
             href="#"
             data-umami-event="Repository Link"
           >
-            <FiGithub /> Source
+            <FiGithub /> 
           </Info>
 
           <Info
             href="#"
             data-umami-event="Credits Link"
           >
-            <FiAward /> Credits
+            <FiAward />
           </Info>
         </section>
       </div>
