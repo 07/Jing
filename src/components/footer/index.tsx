@@ -1,4 +1,3 @@
-/*
 import React, { ComponentProps } from 'react'
 import Link from 'next/link'
 import { tv } from 'tailwind-variants'
@@ -68,4 +67,4 @@ export function Footer() {
     </footer>
   )
 }
-*/
+
