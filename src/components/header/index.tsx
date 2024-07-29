@@ -19,7 +19,7 @@ export const Header: React.FC = () => {
   return (
     <header className="relative flex h-[10vh] items-center justify-between gap-5 px-6 shadow-header transition-all md:h-[13vh]">
       <h1 className={title({ theme })}>
-        <Link href="/">Noisekun</Link>
+        <Link href="/">JingJing</Link>
       </h1>
       <div className="absolute left-1/2 hidden -translate-x-1/2 sm:block">
         <Pomodoro />
