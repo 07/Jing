@@ -1,3 +1,4 @@
+/*
 import React, { ComponentProps } from 'react'
 import Link from 'next/link'
 import { tv } from 'tailwind-variants'
@@ -13,7 +14,7 @@ import { Logo } from './logo'
 export function Footer() {
   const Info = ({ children, className, ...props }: ComponentProps<'a'>) => {
     const style = tv({
-      base: /*tw:*/ 'flex items-center gap-2 text-xl sm:text-lg underline-offset-4 hover:underline w-full'
+      base: /!*tw:*!/ 'flex items-center gap-2 text-xl sm:text-lg underline-offset-4 hover:underline w-full'
     })
     return (
       <a className={style(className)} target="_blank" {...props}>
@@ -67,3 +68,4 @@ export function Footer() {
     </footer>
   )
 }
+*/
