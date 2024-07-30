@@ -22,5 +22,5 @@ export { ReactComponent as Playground } from './playground.svg'
 export { ReactComponent as Boat } from './boat.svg'
 export { ReactComponent as RainOnTent } from './rain-on-tent.svg'
 
-export { ReactComponent as Music3 } from './wind.svg'
-export { ReactComponent as Temple } from './wind.svg'
+export { ReactComponent as Music3 } from './white-noise.svg'
+export { ReactComponent as Temple } from './temple.svg'
