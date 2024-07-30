@@ -13,7 +13,7 @@ import { Logo } from './logo'
 export function Footer() {
   const Info = ({ children, className, ...props }: ComponentProps<'a'>) => {
     const style = tv({
-      base: /!*tw:*!/ 'flex items-center gap-2 text-xl sm:text-lg underline-offset-4 hover:underline w-full'
+      base: /*tw:*/ 'flex items-center gap-2 text-xl sm:text-lg underline-offset-4 hover:underline w-full'
     })
     return (
       <a className={style(className)} target="_blank" {...props}>
@@ -34,37 +34,35 @@ export function Footer() {
         </div>
         <section className="flex flex-col gap-2 sm:gap-0">
           <Info
-            href="https://github.com/mateusfg7/Noisekun/blob/master/LICENSE"
+            href="#"
             className="cursor-pointer"
             data-umami-event="License Link"
           >
             <AiOutlineCopyrightCircle /> MIT License
           </Info>
           <Info
-            href="#"
+            href="https://github.com/mateusfg7"
             data-umami-event="Author Link"
           >
-            <span className="font-bold">07</span>
+            orign <span className="font-bold">mateusfg7</span>
           </Info>
         </section>
         <section className="flex flex-col gap-2 sm:gap-0">
           <Info
-            href="https://github.com/mateusfg7/Noisekun"
+            href="#"
             data-umami-event="Repository Link"
           >
-            <FiGithub /> Original by mateusfg7
+            <FiGithub /> Source
           </Info>
 
           <Info
             href="#"
             data-umami-event="Credits Link"
           >
-            <FiAward /> 中文版
+            <FiAward /> Credits
           </Info>
         </section>
       </div>
-      
     </footer>
   )
 }
-
