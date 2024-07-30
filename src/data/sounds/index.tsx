@@ -21,7 +21,9 @@ import {
   Waterfall,
   Waves,
   WhiteNoise,
-  Wind
+  Wind,
+  Music3,
+  Temple
 } from './icons'
 
 export const sounds = [
