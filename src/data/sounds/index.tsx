@@ -231,6 +231,24 @@ export const sounds = [
       url: 'https://cdn.noisekun.com/sounds/pink-noise.ogg',
       type: 'audio/ogg'
     }
+  },
+  {
+    id: 'music3',
+    title: 'Music3',
+    icon: Music3,
+    file: {
+      url: '/sounds/music3.mp3',
+      type: 'audio/mp3'
+    }
+  },
+  {
+    id: 'temple',
+    title: 'temple',
+    icon: Temple,
+    file: {
+      url: '/sounds/temple.mp3',
+      type: 'audio/mp3'
+    }
   }
 ]
 
