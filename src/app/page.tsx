@@ -41,7 +41,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-        <Footer />
+        {/*<Footer />*/}
         <InteractionModal />
       </div>
     </div>
