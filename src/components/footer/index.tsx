@@ -34,7 +34,7 @@ export function Footer() {
         </div>
         <section className="flex flex-col gap-2 sm:gap-0">
           <Info
-            href="#"
+            href="https://github.com/mateusfg7/Noisekun/blob/master/LICENSE"
             className="cursor-pointer"
             data-umami-event="License Link"
           >
@@ -44,25 +44,32 @@ export function Footer() {
             href="https://github.com/mateusfg7"
             data-umami-event="Author Link"
           >
-            orign <span className="font-bold">mateusfg7</span>
+            by <span className="font-bold">mateusfg7</span>
           </Info>
         </section>
         <section className="flex flex-col gap-2 sm:gap-0">
           <Info
-            href="#"
+            href="https://github.com/mateusfg7/Noisekun"
             data-umami-event="Repository Link"
           >
             <FiGithub /> Source
           </Info>
 
           <Info
-            href="#"
+            href="https://github.com/mateusfg7/Noisekun/?tab=readme-ov-file#%EF%B8%8F-credits"
             data-umami-event="Credits Link"
           >
             <FiAward /> Credits
           </Info>
         </section>
       </div>
+      <a
+        href={`https://github.com/mateusfg7/Noisekun/releases/tag/${packageJson.version}`}
+        className={version({ theme })}
+        data-umami-event="Version Link"
+      >
+        {packageJson.version}
+      </a>
     </footer>
   )
 }
