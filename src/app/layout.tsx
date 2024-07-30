@@ -6,7 +6,7 @@ import { Toaster } from 'react-hot-toast'
 
 import '../styles/global.css'
 
-const APP_NAME = 'Noisekun'
+const APP_NAME = 'JingJing'
 const APP_DESCRIPTION =
   'Listen combinations of ambient sounds for relaxing or getting more productive on your task!'
 const APP_URL = process.env.HOSTNAME
