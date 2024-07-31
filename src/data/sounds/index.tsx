@@ -32,8 +32,8 @@ export const sounds = [
     title: 'Rain',
     icon: Rain,
     file: {
-      url: '/sounds/rain.ogg',
-      type: 'audio/ogg'
+      url: '/sounds/rain.mp3',
+      type: 'audio/mp3'
     }
   },
   {
@@ -41,8 +41,8 @@ export const sounds = [
     title: 'Storm',
     icon: Storm,
     file: {
-      url: '/sounds/storm.ogg',
-      type: 'audio/ogg'
+      url: '/sounds/storm.mp3',
+      type: 'audio/mp3'
     }
   },
   {
@@ -50,8 +50,8 @@ export const sounds = [
     title: 'Drops',
     icon: Drops,
     file: {
-      url: '/sounds/drops.ogg',
-      type: 'audio/ogg'
+      url: '/sounds/drops.mp3',
+      type: 'audio/mp3'
     }
   },
   {
@@ -59,8 +59,8 @@ export const sounds = [
     title: 'Wind',
     icon: Wind,
     file: {
-      url: '/sounds/wind.ogg',
-      type: 'audio/ogg'
+      url: '/sounds/wind.mp3',
+      type: 'audio/mp3'
     }
   },
   {
@@ -68,8 +68,8 @@ export const sounds = [
     title: 'Waves',
     icon: Waves,
     file: {
-      url: '/sounds/waves.ogg',
-      type: 'audio/ogg'
+      url: '/sounds/waves.mp3',
+      type: 'audio/mp3'
     }
   },
   {
@@ -77,8 +77,8 @@ export const sounds = [
     title: 'Underwater',
     icon: Underwater,
     file: {
-      url: '/sounds/underwater.ogg',
-      type: 'audio/ogg'
+      url: '/sounds/underwater.mp3',
+      type: 'audio/mp3'
     }
   },
   {
@@ -86,8 +86,8 @@ export const sounds = [
     title: 'Stream Water',
     icon: StreamWater,
     file: {
-      url: '/sounds/stream-water.ogg',
-      type: 'audio/ogg'
+      url: '/sounds/stream-water.mp3',
+      type: 'audio/mp3'
     }
   },
   {
@@ -95,8 +95,8 @@ export const sounds = [
     title: 'Waterfall',
     icon: Waterfall,
     file: {
-      url: '/sounds/waterfall.ogg',
-      type: 'audio/ogg'
+      url: '/sounds/waterfall.mp3',
+      type: 'audio/mp3'
     }
   },
   {
@@ -104,8 +104,8 @@ export const sounds = [
     title: 'Birds on Tree',
     icon: BirdsTree,
     file: {
-      url: '/sounds/birds-tree.ogg',
-      type: 'audio/ogg'
+      url: '/sounds/birds-tree.mp3',
+      type: 'audio/mp3'
     }
   },
   {
@@ -113,8 +113,8 @@ export const sounds = [
     title: 'Leaves',
     icon: Leaves,
     file: {
-      url: '/sounds/leaves.ogg',
-      type: 'audio/ogg'
+      url: '/sounds/leaves.mp3',
+      type: 'audio/mp3'
     }
   },
   {
@@ -122,8 +122,8 @@ export const sounds = [
     title: 'Bonfire',
     icon: Fire,
     file: {
-      url: '/sounds/fire.ogg',
-      type: 'audio/ogg'
+      url: '/sounds/fire.mp3',
+      type: 'audio/mp3'
     }
   },
   {
@@ -131,8 +131,8 @@ export const sounds = [
     title: 'Cave Sounds',
     icon: Cave,
     file: {
-      url: '/sounds/cave-drops.ogg',
-      type: 'audio/ogg'
+      url: '/sounds/cave-drops.mp3',
+      type: 'audio/mp3'
     }
   },
   {
@@ -140,8 +140,8 @@ export const sounds = [
     title: 'Night',
     icon: Night,
     file: {
-      url: '/sounds/night.ogg',
-      type: 'audio/ogg'
+      url: '/sounds/night.mp3',
+      type: 'audio/mp3'
     }
   },
   {
@@ -149,8 +149,8 @@ export const sounds = [
     title: 'Coffee shop',
     icon: Coffee,
     file: {
-      url: '/sounds/coffee.ogg',
-      type: 'audio/ogg'
+      url: '/sounds/coffee.mp3',
+      type: 'audio/mp3'
     }
   },
   {
@@ -158,8 +158,8 @@ export const sounds = [
     title: 'Train',
     icon: Train,
     file: {
-      url: '/sounds/train.ogg',
-      type: 'audio/ogg'
+      url: '/sounds/train.mp3',
+      type: 'audio/mp3'
     }
   },
   {
@@ -167,8 +167,8 @@ export const sounds = [
     title: 'Airplane',
     icon: AirPlane,
     file: {
-      url: '/sounds/air-plane.ogg',
-      type: 'audio/ogg'
+      url: '/sounds/air-plane.mp3',
+      type: 'audio/mp3'
     }
   },
   {
@@ -176,8 +176,8 @@ export const sounds = [
     title: 'Washing machine',
     icon: WashingMachine,
     file: {
-      url: '/sounds/washing-machine.ogg',
-      type: 'audio/ogg'
+      url: '/sounds/washing-machine.mp3',
+      type: 'audio/mp3'
     }
   },
   {
@@ -185,8 +185,8 @@ export const sounds = [
     title: 'Playground',
     icon: Playground,
     file: {
-      url: '/sounds/playground.ogg',
-      type: 'audio/ogg'
+      url: '/sounds/playground.mp3',
+      type: 'audio/mp3'
     }
   },
   {
@@ -194,8 +194,8 @@ export const sounds = [
     title: 'Boat',
     icon: Boat,
     file: {
-      url: '/sounds/boat.ogg',
-      type: 'audio/ogg'
+      url: '/sounds/boat.mp3',
+      type: 'audio/mp3'
     }
   },
   {
@@ -203,8 +203,8 @@ export const sounds = [
     title: 'Rain on Tent',
     icon: RainOnTent,
     file: {
-      url: '/sounds/rain-on-tent.ogg',
-      type: 'audio/ogg'
+      url: '/sounds/rain-on-tent.mp3',
+      type: 'audio/mp3'
     }
   },
   {
@@ -212,8 +212,8 @@ export const sounds = [
     title: 'Brown Noise',
     icon: BrownNoise,
     file: {
-      url: '/sounds/brown-noise.ogg',
-      type: 'audio/ogg'
+      url: '/sounds/brown-noise.mp3',
+      type: 'audio/mp3'
     }
   },
   {
@@ -221,8 +221,8 @@ export const sounds = [
     title: 'White Noise',
     icon: WhiteNoise,
     file: {
-      url: '/sounds/white-noise.ogg',
-      type: 'audio/ogg'
+      url: '/sounds/white-noise.mp3',
+      type: 'audio/mp3'
     }
   },
   {
@@ -230,8 +230,8 @@ export const sounds = [
     title: 'Pink Noise',
     icon: PinkNoise,
     file: {
-      url: '/sounds/pink-noise.ogg',
-      type: 'audio/ogg'
+      url: '/sounds/pink-noise.mp3',
+      type: 'audio/mp3'
     }
   },
   {
