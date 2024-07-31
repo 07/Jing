@@ -77,11 +77,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <head>
-        <Script
-          async
-          src="https://analytics.mateusf.com/script.js"
-          data-website-id={process.env.UMAMI_WEBSITE_ID}
-        />
+        
       </head>
       <body className={nunito.variable}>
         <Toaster position="bottom-right" />
